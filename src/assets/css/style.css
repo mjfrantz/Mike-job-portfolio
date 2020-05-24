@@ -461,7 +461,7 @@ h6 {
 /*========== banner_area css =========*/
 .banner_area,
 .banner_area_two {
-  min-height: 100vh;
+  min-height: 115vh;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -513,7 +513,7 @@ h6 {
   font-size: 20px;
   margin: 0;
   font-weight: 400;
-  margin-bottom: 32px;
+  margin-bottom: 7px;
   letter-spacing: 1px;
 }
 
