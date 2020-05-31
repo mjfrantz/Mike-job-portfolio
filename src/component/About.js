@@ -16,7 +16,7 @@ class About extends Component {
                   <h2 className="t_color">{mikeData.aboutme}</h2>
                   <h6>{mikeData.role}</h6>
                   <p>{mikeData.aboutdetails}</p>
-                  <Link to="/" className="theme_btn active">Hire Me</Link>
+                  {/* <Link to="/" className="theme_btn active">Hire Me</Link> */}
                   <Link to="/" className="theme_btn">Download CV</Link>
                 </div>
               </Fade>

@@ -54,7 +54,8 @@ class ItemGrid extends Component {
                             <img src={require('../../image/portfolio/airpack.png')} alt="" />
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
-                                    <h6 className="sm-titl">AIRPACK</h6>
+                                    <h3 className="sm-titl">AIRPACK</h3>
+                                    <h6 className="sm-desc">An upcoming application that allows users to purchase 'Airpacks', which are packs of travel essentials they can order while traveling to a new country.</h6>
                                     <div className="icons">
                                         <a href="https://github.com/mjfrantz/airpack-node" target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
                                         <a href="https://www.airpack.io" target="_blank" rel="noopener noreferrer"><i className="icon_heart_alt"></i></a>
@@ -68,7 +69,8 @@ class ItemGrid extends Component {
                             <img src={require('../../image/portfolio/speakItLive.png')} alt="" />
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
-                                    <h6 className="sm-titl">SPEAKIT-LIVE</h6>
+                                    <h3 className="sm-titl">SPEAKIT-LIVE</h3>
+                                    <h6 className="sm-desc">This application allows for foreign students to improve their english speaking skills in a classroom setting.</h6>
                                     <div className="icons">
                                         <a href=".#"><i className="icon_pencil"></i></a>
                                         <a href=".#"><i className="icon-magnifying-glass"></i></a>
@@ -77,48 +79,6 @@ class ItemGrid extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="col-md-6 col-sm-6 col-xs-12 grid-item market develop">
-                        <div className="portfolio hover-style">
-                            <img src={require('../../image/portfolio/9.jpg')} alt="" />
-                            <div className="item-img-overlay">
-                                <div className="overlay-info text-center">
-                                    <h6 className="sm-titl">WEB DESIGN</h6>
-                                    <div className="icons">
-                                        <a href=".#"><i className="icon_heart_alt"></i></a>
-                                        <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-                    {/* <div className="col-md-6 col-sm-6 col-xs-12 grid-item web">
-                        <div className="portfolio hover-style">
-                            <img src={require('../../image/portfolio/10.jpg')} alt="" />
-                            <div className="item-img-overlay">
-                                <div className="overlay-info text-center">
-                                    <h6 className="sm-titl">WEB DESIGN</h6>
-                                    <div className="icons">
-                                        <a href=".#"><i className="icon_heart_alt"></i></a>
-                                        <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web">
-                        <div className="portfolio hover-style">
-                            <img src={require('../../image/portfolio/3.jpg')} alt="" />
-                            <div className="item-img-overlay">
-                                <div className="overlay-info text-center">
-                                    <h6 className="sm-titl">WEB DESIGN</h6>
-                                    <div className="icons">
-                                        <a href=".#"><i className="icon_heart_alt"></i></a>
-                                        <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                     <div className="col-md-6 col-sm-6 col-xs-12 grid-item javascript">
                         <div className="portfolio hover-style">
                             <img src={require('../../image/portfolio/Ustours.png')} alt="" />
