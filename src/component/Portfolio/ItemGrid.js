@@ -70,7 +70,7 @@ class ItemGrid extends Component {
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
                                     <h3 className="sm-titl">SPEAKIT-LIVE</h3>
-                                    <h6 className="sm-desc">This application allows for foreign students to improve their english speaking skills in a classroom setting.</h6>
+                                    <h6 className="sm-desc">This application allows for foreign students to improve their english speaking skills in a classroom setting by having the students record their conversation and allowing teachers to listen in for any mistake.</h6>
                                     <div className="icons">
                                         <a href=".#"><i className="icon_pencil"></i></a>
                                         <a href=".#"><i className="icon-magnifying-glass"></i></a>
