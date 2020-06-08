@@ -65,8 +65,8 @@ class ItemGrid extends Component {
                     <h3 className="sm-titl">{portfolio.fields.title}</h3>
                     <h6 className="sm-desc">{portfolio.fields.description}</h6>
                     <div className="icons">
-                      <a href={portfolio.fields.website_url} target="_blank" rel="noopener noreferrer"><i className="icon_heart_alt"></i></a>
-                      <a href={portfolio.fields.github_url} target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
+                      <a href={portfolio.fields.websiteUrl} target="_blank" rel="noopener noreferrer"><i className="icon_heart_alt"></i></a>
+                      <a href={portfolio.fields.githubUrl} target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
                     </div>
                   </div>
                 </div>
