@@ -8,9 +8,9 @@ class Footer extends Component {
       <section className="footer-area">
         <div className="container">
           <div className="footer-content">
-            <Link to="/" className="logo wow fadeInDown" data-wow-delay="0.4s">
+            {/* <Link to=".#" className="logo wow fadeInDown" data-wow-delay="0.4s">
               <img src={require('../image/MJF9.png')} alt="" />
-            </Link>
+            </Link> */}
             {/* <Fade top cascade>
               <ul className="list_style">
                 {
@@ -24,7 +24,6 @@ class Footer extends Component {
                 }
               </ul>
             </Fade> */}
-
             <h6>Made with love by Michael J. Frantz</h6>
             <p>© Michael J. Frantz - All Rights Reserved</p>
           </div>

@@ -4,8 +4,14 @@ import { Fade, Reveal } from 'react-reveal/';
 
 class About extends Component {
   render() {
+    const { aClass } = this.props;
+
     let mikeData = this.props.mikeData;
-    var { aClass } = this.props;
+
+    const handlePDFOpen = () => {
+      window.open('./money.pdf', '_blank', 'fullscreen=yes')
+    }
+
     return (
       <section className={`${aClass}`} id="about">
         <div className="container">
@@ -16,7 +22,7 @@ class About extends Component {
                   <h2 className="t_color">{mikeData.aboutme}</h2>
                   <h6>{mikeData.role}</h6>
                   <p>{mikeData.aboutdetails}</p>
-                  <Link to="/" className="theme_btn active">Resume</Link>
+                  <button className="theme_btn active" onClick={handlePDFOpen}>Resume</button>
                   <a href="https://www.linkedin.com/in/mjfrantz/" target="_blank" rel="noopener noreferrer" className="theme_btn active">Linkedin</a>
                 </div>
               </Fade>

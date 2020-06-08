@@ -6,6 +6,7 @@ import mikeData from './component/mikeData';
 import Portfolio from './component/Portfolio/Portfolio';
 import Footer from './component/Footer';
 
+
 export const Home = () => (
   <div className="body_wrapper">
     <NavBar mainlogo="MJF9.png" stickylogo="MJF10.png" />

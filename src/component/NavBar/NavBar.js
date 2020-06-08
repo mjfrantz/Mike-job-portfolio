@@ -35,19 +35,19 @@ class Navbar extends Component {
                                     </Link>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link className="nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-86} duration={500}>
                     Contact
                                     </Link>
-                </li>
+                </li> */}
               </ul>
-              <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
+              {/* <ul className="nav navbar-nav navbar-right d-md-none d-lg-block">
                 <li className="nav-item">
                   <a href="./" className="login">
                     login
                                     </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </nav>
