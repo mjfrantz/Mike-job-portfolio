@@ -57,8 +57,8 @@ class ItemGrid extends Component {
                                     <h3 className="sm-titl">AIRPACK</h3>
                                     <h6 className="sm-desc">An upcoming application that allows users to purchase 'Airpacks', which are packs of travel essentials they can order while traveling to a new country.</h6>
                                     <div className="icons">
-                                        <a href="https://github.com/mjfrantz/airpack-node" target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
                                         <a href="https://www.airpack.io" target="_blank" rel="noopener noreferrer"><i className="icon_heart_alt"></i></a>
+                                        <a href="https://github.com/mjfrantz/airpack-node" target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +72,8 @@ class ItemGrid extends Component {
                                     <h3 className="sm-titl">SPEAKIT-LIVE</h3>
                                     <h6 className="sm-desc">This application allows for foreign students to improve their english speaking skills in a classroom setting by having the students record their conversation and allowing teachers to listen in for any mistake.</h6>
                                     <div className="icons">
-                                        <a href=".#"><i className="icon_pencil"></i></a>
-                                        <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                        <a href=".#"><i className="icon_heart_alt"></i></a>
+                                        <a href="https://github.com/jjmountain/speakit-live" target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -86,8 +86,22 @@ class ItemGrid extends Component {
                                 <div className="overlay-info text-center">
                                     <h6 className="sm-titl">US TOURS</h6>
                                     <div className="icons">
-                                        {/* <a href=""><i className="icon_heart_alt"></i></a> */}
-                                        <a href="https://www.natours.dev" target="_blank" rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
+                                        <a href="https://www.airpack.io" target="_blank" rel="noopener noreferrer"><i className="icon_heart_alt"></i></a>
+                                        <a href="https://github.com/mjfrantz/airpack-node" target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-6 col-sm-6 col-xs-12 grid-item javascript">
+                        <div className="portfolio hover-style">
+                            <img src={require('../../image/portfolio/lunaecomm.png')} alt="" />
+                            <div className="item-img-overlay">
+                                <div className="overlay-info text-center">
+                                    <h6 className="sm-titl">Luna</h6>
+                                    <div className="icons">
+                                        <a href="https://luna.ivanvgarcia.now.sh/" target="_blank" rel="noopener noreferrer"><i className="icon_heart_alt"></i></a>
+                                        <a href="https://github.com/mjfrantz/luna-ecomm" target="_blank" rel="noopener noreferrer"><i className="icon_pencil"></i></a>
                                     </div>
                                 </div>
                             </div>

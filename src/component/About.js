@@ -11,13 +11,13 @@ class About extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-7 d-flex align-items-center">
-              <Fade bottom cascade duration={1000}>
+              <Fade bottom cascade duration={2000}>
                 <div className="about_content">
                   <h2 className="t_color">{mikeData.aboutme}</h2>
                   <h6>{mikeData.role}</h6>
                   <p>{mikeData.aboutdetails}</p>
-                  {/* <Link to="/" className="theme_btn active">Hire Me</Link> */}
-                  <Link to="/" className="theme_btn">Download CV</Link>
+                  <Link to="/" className="theme_btn active">Resume</Link>
+                  <a href="https://www.linkedin.com/in/mjfrantz/" target="_blank" rel="noopener noreferrer" className="theme_btn active">Linkedin</a>
                 </div>
               </Fade>
             </div>

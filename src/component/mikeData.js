@@ -1,19 +1,19 @@
 const mikeData = {
   "name": "Michael J. Frantz",
   "role": "Fullstack Web Developer",
-  "socialLinks": [{
-    "name": "Linkedin",
-    "url": "https://www.linkedin.com/in/mjfrantz",
-    "className": "social_linkedin"
-  },
-  {
-    "name": "Github",
-    "url": "https://github.com/mjfrantz",
-    "className": "social_twitter"
-  }
-  ],
+  // "socialLinks": [{
+  //   "name": "Linkedin",
+  //   "url": "https://www.linkedin.com/in/mjfrantz",
+  //   "className": "social_linkedin"
+  // },
+  // {
+  //   "name": "Github",
+  //   "url": "https://github.com/mjfrantz",
+  //   "className": "social_twitter"
+  // }
+  // ],
   "aboutme": "About Me",
-  "aboutdetails": "I am Michael J. Frantz a fullstack developer who recently graduated from Le Wagon & San Diego Global...",
+  "aboutdetails": "I am Michael J. Frantz, a fullstack developer who currently resides in Austin, Texas. I graduated from Le Wagon Fullstack program in Japan & San Diego Global Knowledge University where I became proficient in the following technologies Ruby on Rails, JavaScript, Node, React, HTML, & CSS. ",
   "contact": [
     {
       "id": "1",
