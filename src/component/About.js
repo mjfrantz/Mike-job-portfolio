@@ -9,7 +9,7 @@ class About extends Component {
     let mikeData = this.props.mikeData;
 
     const handlePDFOpen = () => {
-      window.open('./resume1.1.pdf', '_blank', 'fullscreen=yes')
+      window.open('./resume1.2.pdf', '_blank', 'fullscreen=yes')
     }
 
     return (
