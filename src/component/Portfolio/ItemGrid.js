@@ -3,6 +3,7 @@ import Isotope from 'isotope-layout/js/isotope';
 import ImagesLoaded from 'imagesloaded/imagesloaded';
 import { createClient } from 'contentful';
 
+
 const client = createClient({
   space: process.env.REACT_APP_CONTENTFUL_SPACE_ID,
   accessToken: process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN
@@ -33,6 +34,7 @@ class ItemGrid extends Component {
 
   }
   onFilterChange = async (newFilter) => {
+
 
     const entries = await client.getEntries({
       'fields.technology': newFilter,
@@ -71,6 +73,7 @@ class ItemGrid extends Component {
                   </div>
                 </div>
               </div>
+
             </div>)
 
           ) : (<h4>No Portfolios Found</h4>)}
@@ -81,3 +84,20 @@ class ItemGrid extends Component {
 }
 
 export default ItemGrid;
+
+
+// this.setState({ activeItem: newFilter });
+// 		if (this.iso === undefined) {
+// 			this.iso = new Isotope('.grid', {
+// 				itemSelector: '.grid-item',
+// 				layoutMode: "masonry"
+// 			});
+// 		}
+
+// 		// this.iso.arrange({ filter: newFilter });
+
+// 		if (newFilter === '*') {
+// 			this.iso.arrange({ filter: `*` });
+// 		} else {
+// 			this.iso.arrange({ filter: `.${newFilter}` });
+// 		}
