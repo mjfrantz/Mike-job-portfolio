@@ -10,7 +10,7 @@
 
 @media (max-width:1199px) {
   .about_img img {
-    margin-left: -180px;
+    margin-left: -140px;
   }
 
   .blog_post .post_content .blog-meta span {
@@ -244,6 +244,12 @@
   .clients_logo_area_two .row {
     margin-bottom: -30px;
   }
+
+  .portfolio .item-img-overlay .overlay-info h6 {
+    width: 100%;
+    font-size: 10px;
+    margin: .5rem;
+  }
 }
 
 @media (max-width:767px) {
@@ -361,6 +367,16 @@
     width: 100%;
   }
 
+  .portfolio .item-img-overlay {
+    width: 100%;
+  }
+
+  .portfolio .item-img-overlay .overlay-info h6 {
+    width: 100%;
+    font-size: 8px;
+    margin: .5rem;
+  }
+
   .testimonial_area .testimonial_slider {
     padding: 0px;
   }
@@ -379,7 +395,8 @@
     font-size: 38px;
   }
 
-  .about_content .theme_btn {
+  .about_content .theme_btn a,
+  button {
     margin-bottom: 8px;
     display: block;
     margin-left: 0;
