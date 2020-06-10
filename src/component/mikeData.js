@@ -13,7 +13,7 @@ const mikeData = {
   // }
   // ],
   "aboutme": "About Me",
-  "aboutdetails": "I am Michael J. Frantz, a fullstack developer who currently resides in Austin, Texas. I graduated from Le Wagon Fullstack program in Japan & San Diego Global Knowledge University where I became proficient in the following technologies Ruby on Rails, JavaScript, Node, React, HTML, & CSS. ",
+  "aboutdetails": "I am Michael J. Frantz, a fullstack developer who currently resides in Austin, Texas. I graduated from both Le Wagon in Japan & San Diego Global Knowledge University fullstack programs, where I became proficient in the following technologies Ruby on Rails, JavaScript, Node, React, HTML, & CSS. ",
   "contact": [
     {
       "id": "1",
